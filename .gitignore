@@ -1,0 +1,22 @@
+# data, weights, outputs
+data/
+checkpoints/
+results/
+logs/
+*.h5
+*.pt
+*.npz
+
+# third-party baselines (cloned separately)
+third_party/
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# internal only (not published)
+local.mk
+*.internal.md
+scripts/

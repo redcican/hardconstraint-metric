@@ -1,0 +1,11 @@
+[project]
+name = "tcflow"
+version = "0.0.1"
+description = "Measure-correct hard constraints for flow-matching PDE samplers"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["tcflow*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
